@@ -1,7 +1,7 @@
 import google.generativeai as genai
 from flask import Flask, render_template, request
 
-genai.configure(api_key="AIzaSyCOhPD4G30f8z-IIctTap6zSKIHyv-nsm4")
+genai.configure(api_key="your api key")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 app = Flask(__name__)
@@ -36,3 +36,4 @@ def lastpage():
     return render_template('lastpage.html')
 if __name__ == '__main__':
     app.run(debug=True)
+
