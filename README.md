@@ -62,7 +62,7 @@ pip install -r requirements.txt
 4. **Configure the API Key**
 
 - Open `savifyapp.py`
-- Replace the placeholder key `AIzaSyCOhPD4G30f8z-IIctTap6zSKIHyv-nsm4` with your actual **Google Gemini API Key**
+- Replace the placeholder key `your api key` with your actual **Google Gemini API Key**
 
 5. **Run the application**
 
